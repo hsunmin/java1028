@@ -1,0 +1,23 @@
+package hotmail.hsunmin.java1028;
+
+public class Array {
+
+	public static void main(String[] args) 
+	{
+		// 묶어서 하나의 이름으로 저장 - 배열
+		// 배열을 사용하면 scores라는 이름 1개만 필요
+		int [] scores = {90,99,87};
+		
+		// 배열은 반복문을 이용해서 모든 데이터에 접근할수 있기 떄문에
+		// 처리하는 문장이 간결해집니다
+		
+		for(int i=0;i<scores.length;i=i+1)
+		{
+			System.out.println(scores[i]);
+		}
+		
+		for(int score: scores) {System.out.println(score);}
+
+	}
+
+}
